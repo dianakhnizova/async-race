@@ -1,0 +1,11 @@
+.garage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	width: 98%;
+	font-family: Karla, sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: white;
+}

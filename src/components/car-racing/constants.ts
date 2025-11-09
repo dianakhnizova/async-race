@@ -1,0 +1,4 @@
+const TO_SECOND = 2;
+const MILLISECONDS = 500;
+
+export { TO_SECOND, MILLISECONDS };

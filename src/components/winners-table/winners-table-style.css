@@ -1,0 +1,41 @@
+.winners-table {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0px;
+	width: 800px;
+	
+	border: 5px dashed #ffba00;
+	border-radius: 18px;
+}
+
+.winner-row {
+display: flex;
+justify-content: flex-start;
+gap: 40px;
+background-color: black;
+  color: #ffba00;
+  border-bottom: 4px dashed #ffba00;
+  padding: 20px 5px 20px 0;
+  
+}
+
+.winner-cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 140px;
+	font-family: "Audiowide", sans-serif;
+	font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+@media (min-width: 498px) and (max-width: 1077px) {
+	.winners-table {
+		width: 80%;
+	}
+ 
+ }

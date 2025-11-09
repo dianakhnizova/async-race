@@ -1,0 +1,43 @@
+
+.create-button {
+	cursor: pointer;
+	width: 400px;
+	height: 50px;
+	border: 4px dashed #ffba00;
+	border-radius: 18px;
+	font-family: "Audiowide", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffba00;
+	background-color: black;
+	box-shadow: 0 4px 10px rgb(0 0 0 / 90%);
+	transition: all 0.3s ease-in-out;
+}
+
+.create-button:hover {
+	transform: scale(1.05);
+	background: #ffba00;
+	color: black;
+	border: 4px dashed black;
+}
+
+.create-button:active {
+	background: #ffba00;
+}
+
+.create-button:disabled {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+@media (min-width: 498px) and (max-width: 1077px) {
+	
+	.color {
+		width: 80px;
+	}
+	.input {
+		width: 200px;
+	}
+ }

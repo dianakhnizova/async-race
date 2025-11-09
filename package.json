@@ -1,0 +1,40 @@
+{
+  "name": "async-race",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
+    "format:check": "prettier --list-different \"src/**/*.{ts,tsx,js,jsx}\"",
+    "format:safe": "prettier --write --ignore-unknown \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint:fix": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-unicorn": "^58.0.0",
+    "globals": "^16.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "prettier": "3.5.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

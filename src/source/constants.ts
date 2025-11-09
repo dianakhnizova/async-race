@@ -1,0 +1,24 @@
+const ERROR_STATUS_404 = 404;
+const ERROR_STATUS_400 = 400;
+const ERROR_STATUS_429 = 429;
+const ERROR_STATUS_500 = 500;
+
+const JSON_HEADERS = {
+  'Content-Type': 'application/json',
+};
+
+const ITEMS_PER_PAGE = 7;
+
+const DEFAULT_VALUE_PAGE = '';
+const LIMIT_OF_WINNERS = 10;
+
+export {
+  JSON_HEADERS,
+  ITEMS_PER_PAGE,
+  ERROR_STATUS_400,
+  ERROR_STATUS_404,
+  ERROR_STATUS_429,
+  ERROR_STATUS_500,
+  DEFAULT_VALUE_PAGE,
+  LIMIT_OF_WINNERS,
+};
