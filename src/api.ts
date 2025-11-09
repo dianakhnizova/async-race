@@ -11,7 +11,7 @@ import { SortField, SortOrder } from './source/enum';
 import type { EngineStatus } from './source/enum';
 
 export class Api {
-  private origin = 'http://127.0.0.1:3000';
+  private origin = 'https://srv-d48c42umcj7s73dsuvu0.onrender.com';
 
   public async getCars(
     page: number,
